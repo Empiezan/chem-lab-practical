@@ -68,6 +68,7 @@
 		68D1FD8020E6BC3B009E6CF4 /* b2CollideEdge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68D1FD0320E6BC3B009E6CF4 /* b2CollideEdge.cpp */; };
 		68D1FD8120E6BC3B009E6CF4 /* b2Collision.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68D1FD0420E6BC3B009E6CF4 /* b2Collision.cpp */; };
 		68D1FD8420E6C0DD009E6CF4 /* LiquidFun.mm in Sources */ = {isa = PBXBuildFile; fileRef = 68D1FD8320E6C0DD009E6CF4 /* LiquidFun.mm */; };
+		68EC264720EAD0F000426DCC /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 68EC264620EAD0F000426DCC /* Shaders.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -215,6 +216,7 @@
 		68D1FD8220E6C0DD009E6CF4 /* LiquidFun.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiquidFun.h; sourceTree = "<group>"; };
 		68D1FD8320E6C0DD009E6CF4 /* LiquidFun.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = LiquidFun.mm; sourceTree = "<group>"; };
 		68D1FD8520E6C11F009E6CF4 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		68EC264620EAD0F000426DCC /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -275,6 +277,7 @@
 				68D1FD8220E6C0DD009E6CF4 /* LiquidFun.h */,
 				68D1FD8320E6C0DD009E6CF4 /* LiquidFun.mm */,
 				68D1FD8520E6C11F009E6CF4 /* Bridging-Header.h */,
+				68EC264620EAD0F000426DCC /* Shaders.metal */,
 			);
 			path = "chem-lab-practical";
 			sourceTree = "<group>";
@@ -610,6 +613,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68EC264720EAD0F000426DCC /* Shaders.metal in Sources */,
 				68D1FD6920E6BC3B009E6CF4 /* b2Settings.cpp in Sources */,
 				68D1FD6720E6BC3B009E6CF4 /* b2TrackedBlock.cpp in Sources */,
 				68D1FD4C20E6BC3B009E6CF4 /* b2EdgeAndPolygonContact.cpp in Sources */,
